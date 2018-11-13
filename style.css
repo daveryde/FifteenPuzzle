@@ -5,18 +5,33 @@
 
 body {
   background: rgba(100, 50, 50, 0.6);
-}
-
-#wrapper {
-  width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-p {
   font-family: Arial;
   font-size: 24px;
   font-weight: bold;
+}
+
+.container {
+  background: rgba(100, 50, 50, 0.8);
+  width: 350px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.container input[type='text'] {
+  width: 75%;
+}
+
+.container input[type='button'] {
+  width: 75%;
+  font-weight: bold;
+  margin: 10px auto;
+  padding: 10px 10px;
+}
+
+.container p {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
 }
 
 #table {
