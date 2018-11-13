@@ -1,0 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(100, 50, 50, 0.6);
+}
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#table {
+  width: 400px;
+  height: 400px;
+  margin: 60px auto;
+}
+
+#table td {
+  background: rgba(100, 50, 50, 0.8);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#table td.blank {
+  background: transparent;
+}

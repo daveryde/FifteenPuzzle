@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise 12.7</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <!--
+      Write a web page that enables the user to play the game of 15. There's a 4-by 4 board (implemented as an HTML5 table) for a total of 16 slots. One of th slots is empty. The other slots are occuppued by 15 tiles, randomly numbered from 1 through 15. Any tiles next to the currently empty slot can be moved into the currently empty slot by clicking on the tile. Your program should create the board with the tiles out of order. The user's goal is to arrange the tiles in sequential order row by row. Using the DOM and the click event, write a script that allows the user to swap the positions of the open position and an adjacent tile. [Hint: The click event shouldbe specified for each table block.
+    -->
+    <div id="wrapper">
+      <p>Enter Row Size: <input type="text" name="Row" id="inputRow" /></p>
+      <p>
+        Enter Column Size: <input type="text" name="Column" id="inputCol" />
+      </p>
+      <input type="button" value="Start New Game" id="button" />
+      <div id="table"></div>
+    </div>
+
+    <!-- <script src="./exercise7.js"></script> -->
+  </body>
+</html>
